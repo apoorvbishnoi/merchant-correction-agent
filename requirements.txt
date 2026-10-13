@@ -1,0 +1,7 @@
+streamlit>=1.50
+pandas>=2.1
+numpy
+scikit-learn
+rapidfuzz
+anthropic
+openai>=1.50

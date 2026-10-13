@@ -1,0 +1,124 @@
+[
+ {
+  "request": {
+   "proposed_name": "Zippay",
+   "proposed_website": "",
+   "proposed_category": "Software & SaaS",
+   "note": "What is this charge?",
+   "submitted_by": "Meera Joshi",
+   "request_id": "EXTRA-01"
+  },
+  "txn": {
+   "card_acceptor_name": "PG*ZIPPAY 7781 CHN",
+   "mcc": "5999",
+   "city": "Chennai",
+   "amount_inr": 2200,
+   "receipt_lines": [
+    "Order 7781",
+    "Total paid"
+   ],
+   "currently_mapped_merchant_id": null,
+   "txn_id": "T-60101",
+   "date": "2026-10-02",
+   "mcc_description": "Miscellaneous retail"
+  },
+  "related_memos": []
+ },
+ {
+  "request": {
+   "proposed_name": "Zippay",
+   "proposed_website": "",
+   "proposed_category": "Software & SaaS",
+   "note": "Card shows Zippay, not sure what this is.",
+   "submitted_by": "Rohan Iyer",
+   "request_id": "EXTRA-02"
+  },
+  "txn": {
+   "card_acceptor_name": "PG*ZIPPAY 4402 PUN",
+   "mcc": "5999",
+   "city": "Pune",
+   "amount_inr": 3150,
+   "receipt_lines": [
+    "Invoice from Nanda Stationery House, Pune",
+    "A4 paper x10 reams",
+    "Stapler x4",
+    "Payment gateway: Zippay"
+   ],
+   "currently_mapped_merchant_id": null,
+   "txn_id": "T-60102",
+   "date": "2026-10-03",
+   "mcc_description": "Miscellaneous retail"
+  },
+  "related_memos": []
+ },
+ {
+  "request": {
+   "proposed_name": "Deepak Sweets",
+   "proposed_website": "",
+   "proposed_category": "Meals & Restaurants",
+   "note": "Sweet shop we buy from every month.",
+   "submitted_by": "Kiara Sethi",
+   "request_id": "EXTRA-03"
+  },
+  "txn": {
+   "card_acceptor_name": "TXN 77231",
+   "mcc": "5999",
+   "city": "Pune",
+   "amount_inr": 840,
+   "receipt_lines": [],
+   "currently_mapped_merchant_id": null,
+   "txn_id": "T-60103",
+   "date": "2026-10-04",
+   "mcc_description": "Miscellaneous retail"
+  },
+  "related_memos": []
+ },
+ {
+  "request": {
+   "proposed_name": "Rao Fibernet",
+   "proposed_website": "",
+   "proposed_category": "Telecom & Internet",
+   "note": "They renamed to Rao Fibernet last month.",
+   "submitted_by": "Dev Malhotra",
+   "request_id": "EXTRA-04"
+  },
+  "txn": {
+   "card_acceptor_name": "RAO BROADBAN 9611",
+   "mcc": "4814",
+   "city": "Bengaluru",
+   "amount_inr": 899,
+   "receipt_lines": [],
+   "currently_mapped_merchant_id": "M7369",
+   "txn_id": "T-60104",
+   "date": "2026-10-05",
+   "mcc_description": "Telecommunication services"
+  },
+  "related_memos": []
+ },
+ {
+  "request": {
+   "proposed_name": "Rao Broadband",
+   "proposed_website": "",
+   "proposed_category": "Telecom & Internet",
+   "note": "",
+   "submitted_by": "Anaya Bose",
+   "request_id": "EXTRA-05"
+  },
+  "txn": {
+   "card_acceptor_name": "RAO BRDBND 7710 CHN",
+   "mcc": "4814",
+   "city": "Chennai",
+   "amount_inr": 1180,
+   "receipt_lines": [
+    "Rao Broadband - tax invoice",
+    "Fibre plan, October",
+    "GST 18%"
+   ],
+   "currently_mapped_merchant_id": null,
+   "txn_id": "T-60105",
+   "date": "2026-10-06",
+   "mcc_description": "Telecommunication services"
+  },
+  "related_memos": []
+ }
+]

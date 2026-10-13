@@ -1,0 +1,32 @@
+{
+ "EXTRA-01": {
+  "action": "reject",
+  "scenario": "extra_check",
+  "note": "A payment processor with no seller on the receipt: decline"
+ },
+ "EXTRA-02": {
+  "action": "create",
+  "fields": {
+   "name": "Nanda Stationery House",
+   "category": "Office Supplies"
+  },
+  "scenario": "extra_check",
+  "note": "The same processor, but the receipt names the seller: create the seller (control)"
+ },
+ "EXTRA-03": {
+  "action": "reject",
+  "scenario": "extra_check",
+  "note": "A new merchant with nothing on the transaction to support it: decline"
+ },
+ "EXTRA-04": {
+  "action": "reject",
+  "scenario": "extra_check",
+  "note": "A rename with no sign of the new name anywhere on the transaction: decline"
+ },
+ "EXTRA-05": {
+  "action": "reassign",
+  "target": "M7369",
+  "scenario": "extra_check",
+  "note": "A merchant from another city that the receipt names in full: move the transaction (control)"
+ }
+}

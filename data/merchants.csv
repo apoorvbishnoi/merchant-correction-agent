@@ -1,0 +1,243 @@
+id,name,website,category,established,city,known_acceptors
+M3900,Mehta Bazaar,mehtabazaar.in,Groceries & Retail,0,MUM,MHTBZR MUM|ECOM*MEHTA BAZAAR MUM|MEHTA BAZAAR 4085
+M1608,Malwa Bazaar,malwabazaar.com,Groceries & Retail,0,MUM,MALWA BAZAAR 6663|MLWBZR MUM|POS MALWA BAZAAR MUM
+M6954,Sandal Kitchen,sandalkitchen.in,Meals & Restaurants,0,MUM,SANDAL KITCHEN MUM|SNDLKTCHN MUM|SANDAL KITCHEN
+M2013,CloudNimbus,cloudnimbus.com,Software & SaaS,1,HYD,CLOUDNIMBUS HYD|CLDNMBS HYD|CLOUDNIMBUS 7499|CLOUDNIMBUS
+M4341,Shikhar Grand Hotel,shikhargrandhotel.com,Lodging,0,BLR,SHIKHAR GRAN 4333|SHKHRGRNDHTL BLR|PG*SHIKHAR GRAND  BLR
+M5312,Chinar Dhaba,chinardhaba.com,Meals & Restaurants,0,BLR,ECOM*CHINAR DHABA BLR|CHINAR DHABA 9963|CHINAR DHABA
+M6115,Gill Grand Hotel,gillgrandhotel.in,Lodging,0,GGN,GILL GRAND HOTEL|POS GILL GRAND HOT GGN|GLLGRNDHTL GGN
+M3502,Verma Kitchen,vermakitchen.com,Meals & Restaurants,0,PUN,VERMA KITCHE 1934|MPOS*VERMA KITCHEN PUN|VRMKTCHN PUN
+M9950,Spiti Cinemas,spiticinemas.com,Entertainment,0,MUM,SPTCNMS MUM|MPOS*SPITI CINEMAS MUM|SPITI CINEMAS
+M1985,Reddy & Associates,reddyassociates.co.in,Professional Services,0,KOL,REDDY  ASSOCIA KOL|REDDY  ASSOCIATES|REDDY  ASSOC 2746
+M6844,Menon Stationers,menonstationers.co.in,Office Supplies,0,MUM,POS MENON STATIONE MUM|MENON STATIONERS|MNNSTTNRS MUM
+M7143,AxislyHQ,axislyhq.com,Software & SaaS,0,MUM,MPOS*AXISLYHQ MUM|AXSLYHQ MUM|AXISLYHQ
+M3932,Gulmohar Telecom,gulmohartelecom.in,Telecom & Internet,0,MUM,GULMOHAR TELECOM|GLMHRTLCM MUM|ECOM*GULMOHAR TELEC MUM
+M3797,Menon Legal,menonlegal.com,Professional Services,0,MUM,MNNLGL MUM|MENON LEGAL 7007|ECOM*MENON LEGAL MUM
+M5084,Joshi Dhaba,joshidhaba.com,Meals & Restaurants,0,DEL,JOSHI DHABA 9371|MPOS*JOSHI DHABA DEL|JOSHI DHABA
+M9035,Sandal Power,sandalpower.com,Utilities,0,JPR,SANDAL POWER JPR|SANDAL POWER 8055|SNDLPWR JPR
+M7627,Kapoor Grand Hotel,kapoorgrandhotel.co.in,Lodging,0,GGN,KAPOOR GRAND 8748|KAPOOR GRAND HOTEL|KPRGRNDHTL GGN
+M5278,Pavan Dhaba,pavandhaba.co.in,Meals & Restaurants,0,MUM,PAVAN DHABA 3736|ECOM*PAVAN DHABA MUM|PAVAN DHABA
+M9492,Pushkar Cabs,pushkarcabs.co.in,Ground Transport,0,PUN,PUSHKAR CABS PUN|PUSHKAR CABS 8905|PSHKRCBS PUN
+M7652,Deccan Petro,deccanpetro.co.in,Fuel,0,JPR,DCCNPTR JPR|DECCAN PETRO|DECCAN PETRO JPR
+M8423,Naidu Legal,naidulegal.in,Professional Services,0,PUN,NDLGL PUN|NAIDU LEGAL 9605|NAIDU LEGAL
+M8780,Sundar Travels,sundartravels.in,Ground Transport,0,GGN,SUNDAR TRAVE 1231|SUNDAR TRAVELS|SNDRTRVLS GGN
+M3091,Sundar Supermarket,sundarsupermarket.com,Groceries & Retail,0,JPR,POS SUNDAR SUPERMA JPR|SUNDAR SUPER 1715|SUNDAR SUPERMARKET
+M6065,Mehta Power,mehtapower.com,Utilities,0,KOL,MEHTA POWER 1367|MHTPWR KOL|MEHTA POWER
+M8144,Pillai Dhaba,pillaidhaba.in,Meals & Restaurants,0,DEL,PILLAI DHABA DEL|PILLAI DHABA 4310|PILLAI DHABA
+M1659,Bose Multiplex,bosemultiplex.in,Entertainment,0,BLR,BOSE MULTIPLEX BLR|BOSE MULTIPLEX|BOSE MULTIPL 5354
+M3999,Aravali Sweets,aravalisweets.co.in,Meals & Restaurants,0,JPR,ARVLSWTS JPR|ARAVALI SWEETS|ECOM*ARAVALI SWEETS JPR
+M2182,Menon Office Mart,menonofficemart.com,Office Supplies,0,MUM,MNNFFCMRT MUM|MENON OFFICE 2377|MENON OFFICE MART
+M7236,Kaveri Legal,kaverilegal.com,Professional Services,0,AMD,KAVERI LEGAL 4018|ECOM*KAVERI LEGAL AMD|KAVERI LEGAL
+M3381,Iyer Legal,iyerlegal.in,Professional Services,0,MUM,IYER LEGAL MUM|IYRLGL MUM|IYER LEGAL 9347
+M5919,Reddy Travels,reddytravels.co.in,Ground Transport,0,MUM,REDDY TRAVEL 8830|RDDYTRVLS MUM|PG*REDDY TRAVELS MUM
+M3181,FreshBasket,freshbasket.in,Groceries & Retail,1,JPR,FRESHBASKET 7867|FRESHBASKET|FRSHBSKT JPR|ECOM*FRESHBASKET JPR
+M5070,Rao Supermarket,raosupermarket.in,Groceries & Retail,0,AMD,RAO SUPERMAR 3529|RAO SUPERMARKET|RSPRMRKT AMD
+M5214,Sahyadri Sweets,sahyadrisweets.co.in,Meals & Restaurants,0,AMD,SAHYADRI SWE 3065|SAHYADRI SWEETS|POS SAHYADRI SWEET AMD
+M7043,Gulmohar Fuel Point,gulmoharfuelpoint.in,Fuel,0,BLR,GULMOHAR FUE 5227|ECOM*GULMOHAR FUEL  BLR|GULMOHAR FUEL POINT
+M3247,Tulsi Mart,tulsimart.in,Groceries & Retail,0,CHN,TULSI MART 8909|TULSI MART|TLSMRT CHN
+M4576,Nair Stationers,nairstationers.com,Office Supplies,0,KOL,NAIR STATION 3960|NRSTTNRS KOL|NAIR STATIONERS
+M5585,Vectorio Labs,vectoriolabs.in,Software & SaaS,0,CHN,VCTRLBS CHN|VECTORIO LABS CHN|VECTORIO LAB 6440
+M8783,Kaveri Service Station,kaveriservicestation.co.in,Fuel,0,HYD,PG*KAVERI SERVICE HYD|KAVERI SERVICE STATION|KVRSRVCSTTN HYD
+M6046,Mogra Stationers,mograstationers.in,Office Supplies,0,GGN,PG*MOGRA STATIONE GGN|MOGRA STATIONERS|MGRSTTNRS GGN
+M6823,Vindhya Grand Hotel,vindhyagrandhotel.in,Lodging,0,AMD,VINDHYA GRAND  AMD|VNDHYGRNDHTL AMD|VINDHYA GRAND HOTEL
+M4918,Narmada Travels,narmadatravels.com,Ground Transport,0,PUN,NARMADA TRAVEL PUN|NARMADA TRAVELS|NRMDTRVLS PUN
+M7767,Spiti Legal,spitilegal.in,Professional Services,0,DEL,SPITI LEGAL 7724|SPTLGL DEL|PG*SPITI LEGAL DEL
+M1971,Pulse Labs,pulselabs.co.in,Software & SaaS,0,PUN,PULSE LABS|PG*PULSE LABS PUN|PULSE LABS 1770
+M2860,Nair Grand Hotel,nairgrandhotel.in,Lodging,0,KOL,MPOS*NAIR GRAND HOT KOL|NRGRNDHTL KOL|NAIR GRAND HOTEL
+M4904,Rao Power,raopower.in,Utilities,0,AMD,RAO POWER 1720|RAO POWER|RPWR AMD
+M6042,Aravali Travels,aravalitravels.in,Ground Transport,0,HYD,ARAVALI TRAV 2274|ARVLTRVLS HYD|ARAVALI TRAVELS
+M8947,Shetty & Associates,shettyassociates.com,Professional Services,0,HYD,PG*SHETTY  ASSOCI HYD|SHTTYSSCTS HYD|SHETTY  ASSOCIATES
+M8904,Vertex Labs,vertexlabs.in,Software & SaaS,0,AMD,POS VERTEX LABS AMD|VERTEX LABS 9412|VRTXLBS AMD
+M4293,StacklyCloud,stacklycloud.in,Software & SaaS,0,PUN,MPOS*STACKLYCLOUD PUN|STCKLYCLD PUN|STACKLYCLOUD 2370
+M7975,Hotel Ananta Inn,hotelanantainn.com,Lodging,0,HYD,ECOM*HOTEL ANANTA I HYD|HTLNNTNN HYD|HOTEL ANANTA INN
+M9477,Chopra Legal,chopralegal.co.in,Professional Services,0,KOL,CHPRLGL KOL|CHOPRA LEGAL|MPOS*CHOPRA LEGAL KOL
+M2795,Aravali Airways,aravaliairways.in,Air Travel,0,GGN,POS ARAVALI AIRWAY GGN|ARAVALI AIRW 9058|ARAVALI AIRWAYS
+M9380,Mogra Grand Hotel,mogragrandhotel.in,Lodging,0,PUN,PG*MOGRA GRAND HO PUN|MOGRA GRAND HOTEL|MGRGRNDHTL PUN
+M4382,Kapoor Kitchen,kapoorkitchen.com,Meals & Restaurants,0,CHN,KAPOOR KITCH 1555|KPRKTCHN CHN|MPOS*KAPOOR KITCHEN CHN
+M6801,Menon Arcade,menonarcade.co.in,Entertainment,0,AMD,MENON ARCADE 9534|MENON ARCADE|MNNRCD AMD
+M1707,Himal Fuel Point,himalfuelpoint.co.in,Fuel,0,DEL,HMLFLPNT DEL|HIMAL FUEL POINT|HIMAL FUEL P 2793
+M3334,Kaveri Grand Hotel,kaverigrandhotel.co.in,Lodging,0,JPR,MPOS*KAVERI GRAND H JPR|KAVERI GRAND HOTEL|KAVERI GRAND 2458
+M3127,Shikhar Mart,shikharmart.in,Groceries & Retail,0,HYD,SHIKHAR MART|SHIKHAR MART 5418|SHKHRMRT HYD
+M1233,Monsoon Labs,monsoonlabs.in,Software & SaaS,0,DEL,MONSOON LABS 8057|MNSNLBS DEL|MONSOON LABS
+M7044,Gill Air,gillair.co.in,Air Travel,0,KOL,GILL AIR 6902|POS GILL AIR KOL|GILL AIR
+M1862,Bose Fuel Point,bosefuelpoint.co.in,Fuel,0,CHN,PG*BOSE FUEL POIN CHN|BSFLPNT CHN|BOSE FUEL PO 1186
+M8624,Vasant Kitchen,vasantkitchen.co.in,Meals & Restaurants,0,DEL,POS VASANT KITCHEN DEL|VASANT KITCH 8771|VASANT KITCHEN
+M3447,Kaveri Airways,kaveriairways.com,Air Travel,0,HYD,KAVERI AIRWAYS|KAVERI AIRWAYS HYD|KVRRWYS HYD
+M6256,Mandara Kitchen,mandarakitchen.co.in,Meals & Restaurants,0,PUN,MANDARA KITCHE PUN|MANDARA KITCHEN|MANDARA KITC 8800
+M9284,Saffron Broadband,saffronbroadband.co.in,Telecom & Internet,0,BLR,SFFRNBRDBND BLR|POS SAFFRON BROADB BLR|SAFFRON BROADBAND
+M3641,Narmada Airways,narmadaairways.co.in,Air Travel,0,KOL,NRMDRWYS KOL|ECOM*NARMADA AIRWAY KOL|NARMADA AIRWAYS
+M7525,Iyer Advisory,iyeradvisory.in,Professional Services,0,PUN,IYER ADVISORY|IYER ADVISOR 1192|POS IYER ADVISORY PUN
+M3988,Tulsi Broadband,tulsibroadband.in,Telecom & Internet,0,GGN,PG*TULSI BROADBAN GGN|TULSI BROADBAND|TULSI BROADB 6110
+M3719,Kitely Labs,kitelylabs.com,Software & SaaS,0,GGN,KITELY LABS|KITELY LABS 1979|KITELY LABS GGN
+M6777,Desai Arcade,desaiarcade.in,Entertainment,0,BLR,DESAI ARCADE|DESAI ARCADE 6307|POS DESAI ARCADE BLR
+M8683,Nair Kitchen,nairkitchen.co.in,Meals & Restaurants,0,PUN,NAIR KITCHEN 9812|NAIR KITCHEN|NRKTCHN PUN
+M6796,Kesar Mart,kesarmart.com,Groceries & Retail,0,BLR,KESAR MART BLR|KESAR MART|KSRMRT BLR
+M4575,Shetty Service Station,shettyservicestation.in,Fuel,0,MUM,SHTTYSRVCSTTN MUM|SHETTY SERVI 8738|POS SHETTY SERVICE MUM
+M6967,Yamuna Restaurant,yamunarestaurant.co.in,Meals & Restaurants,0,PUN,YMNRSTRNT PUN|MPOS*YAMUNA RESTAUR PUN|YAMUNA RESTAURANT
+M8270,Bhatt Rides,bhattrides.co.in,Ground Transport,0,PUN,BHATT RIDES 9074|BHTTRDS PUN|BHATT RIDES
+M1932,Mandara Cinemas,mandaracinemas.in,Entertainment,0,CHN,MANDARA CINE 2094|MANDARA CINEMAS|POS MANDARA CINEMA CHN
+M5321,Hoysala Grand Hotel,hoysalagrandhotel.in,Entertainment,0,AMD,MPOS*HOYSALA GRAND  AMD|HOYSALA GRAN 2148|HYSLGRNDHTL AMD
+M6650,Aravali Cabs,aravalicabs.in,Ground Transport,0,MUM,PG*ARAVALI CABS MUM|ARVLCBS MUM|ARAVALI CABS 1505
+M5057,Awadh Sweets,awadhsweets.co.in,Meals & Restaurants,0,JPR,AWDHSWTS JPR|AWADH SWEETS|AWADH SWEETS 5253
+M3165,Dhara Supermarket,dharasupermarket.com,Groceries & Retail,0,AMD,DHARA SUPERMARKET|POS DHARA SUPERMAR AMD|DHARA SUPERM 1484
+M2993,Verma Cinemas,vermacinemas.co.in,Entertainment,0,CHN,VRMCNMS CHN|VERMA CINEMA 8105|VERMA CINEMAS
+M6054,StarPlex Cinemas,starplex.in,Entertainment,1,GGN,STARPLEX CINEM GGN|STARPLEX CIN 3961|STRPLXCNMS GGN|STARPLEX CINEMAS
+M8571,Rao Restaurant,raorestaurant.in,Meals & Restaurants,0,KOL,POS RAO RESTAURANT KOL|RAO RESTAURA 3118|RRSTRNT KOL
+M2596,ConnectOne Telecom,connectone.in,Telecom & Internet,1,PUN,CONNECTONE TEL PUN|CONNECTONE T 2028|CNNCTNTLCM PUN|CONNECTONE TELECOM
+M2465,Coorg Legal,coorglegal.com,Professional Services,0,PUN,CRGLGL PUN|PG*COORG LEGAL PUN|COORG LEGAL
+M4452,Shikhar Petro,shikharpetro.com,Fuel,0,JPR,SHKHRPTR JPR|SHIKHAR PETRO|MPOS*SHIKHAR PETRO JPR
+M9536,AxisSoft,axissoft.com,Software & SaaS,0,KOL,AXISSOFT KOL|AXISSOFT|AXSSFT KOL
+M5132,Sandal Air,sandalair.in,Air Travel,0,GGN,SNDLR GGN|ECOM*SANDAL AIR GGN|SANDAL AIR
+M4311,Menon Dhaba,menondhaba.in,Meals & Restaurants,0,GGN,MPOS*MENON DHABA GGN|MENON DHABA|MNNDHB GGN
+M1555,Bose Restaurant,boserestaurant.com,Meals & Restaurants,0,JPR,BOSE RESTAURANT|BSRSTRNT JPR|BOSE RESTAUR 6352
+M6140,Malabar Fuel Point,malabarfuelpoint.com,Fuel,0,GGN,ECOM*MALABAR FUEL P GGN|MLBRFLPNT GGN|MALABAR FUEL POINT
+M2985,Kiran Restaurant,kiranrestaurant.com,Meals & Restaurants,0,JPR,KIRAN RESTAURANT|KIRAN RESTAU 5577|ECOM*KIRAN RESTAURA JPR
+M4971,Araku Kitchen,arakukitchen.com,Meals & Restaurants,0,KOL,ARAKU KITCHEN|ARKKTCHN KOL|POS ARAKU KITCHEN KOL
+M8652,Banerjee Kitchen,banerjeekitchen.in,Meals & Restaurants,0,AMD,MPOS*BANERJEE KITCH AMD|BNRJKTCHN AMD|BANERJEE KITCHEN
+M7163,BeaconHQ,beaconhq.co.in,Software & SaaS,0,KOL,POS BEACONHQ KOL|BEACONHQ|BEACONHQ 8393
+M5381,Kulkarni Dhaba,kulkarnidhaba.co.in,Meals & Restaurants,0,HYD,MPOS*KULKARNI DHABA HYD|KULKARNI DHABA|KLKRNDHB HYD
+M6087,Ananta Multiplex,anantamultiplex.in,Entertainment,0,AMD,ANNTMLTPLX AMD|ANANTA MULTI 6466|ANANTA MULTIPLEX
+M2738,QuillHQ,quillhq.com,Software & SaaS,0,PUN,QLLHQ PUN|QUILLHQ|QUILLHQ 2339
+M1245,Mogra Dhaba,mogradhaba.co.in,Meals & Restaurants,0,GGN,MOGRA DHABA 4436|PG*MOGRA DHABA GGN|MGRDHB GGN
+M5056,Vindhya Arcade,vindhyaarcade.com,Entertainment,0,DEL,VNDHYRCD DEL|MPOS*VINDHYA ARCADE DEL|VINDHYA ARCA 9134
+M9391,Chopra Restaurant,choprarestaurant.in,Meals & Restaurants,0,AMD,CHOPRA RESTAURANT|CHOPRA RESTA 9547|ECOM*CHOPRA RESTAUR AMD
+M1094,LoomSoft,loomsoft.in,Software & SaaS,0,PUN,LOOMSOFT 8229|LMSFT PUN|ECOM*LOOMSOFT PUN
+M5306,Reddy Air,reddyair.co.in,Air Travel,0,HYD,REDDY AIR 4889|REDDY AIR|REDDY AIR HYD
+M2051,AxisioHQ,axisiohq.co.in,Software & SaaS,0,AMD,AXISIOHQ 2964|AXSHQ AMD|MPOS*AXISIOHQ AMD
+M8208,Desai Multiplex,desaimultiplex.in,Entertainment,0,DEL,DESAI MULTIPLEX|DESAI MULTIP 3152|DESAI MULTIPLE DEL
+M1413,Deccan Cabs,deccancabs.com,Ground Transport,0,JPR,DECCAN CABS 4893|DCCNCBS JPR|DECCAN CABS
+M2479,Shikhar Office Mart,shikharofficemart.in,Office Supplies,0,AMD,SHIKHAR OFFICE MART|SHIKHAR OFFI 8808|SHKHRFFCMRT AMD
+M1712,Narmada Residency,narmadaresidency.com,Lodging,0,DEL,ECOM*NARMADA RESIDE DEL|NRMDRSDNCY DEL|NARMADA RESIDENCY
+M4800,Pillai Advisory,pillaiadvisory.in,Professional Services,0,GGN,PLLDVSRY GGN|PILLAI ADVISORY|PILLAI ADVIS 6306
+M1417,Jasmine Kitchen,jasminekitchen.in,Meals & Restaurants,0,PUN,JASMINE KITCHEN|JASMINE KITC 7164|JSMNKTCHN PUN
+M7369,Rao Broadband,raobroadband.co.in,Telecom & Internet,0,BLR,RBRDBND BLR|RAO BROADBAN 9611|MPOS*RAO BROADBAND BLR
+M3296,Sethi Office Mart,sethiofficemart.com,Office Supplies,0,JPR,SETHI OFFICE 9627|PG*SETHI OFFICE M JPR|SETHI OFFICE MART
+M9111,PowerGrid Utilities,powergridutil.in,Utilities,1,JPR,ECOM*POWERGRID UTIL JPR|POWERGRID UTILITIES|POWERGRID UT 8353|PWRGRDTLTS JPR
+M6025,Iyer & Associates,iyerassociates.co.in,Professional Services,0,BLR,IYER  ASSOCI 1064|IYER  ASSOCIATES|IYER  ASSOCIAT BLR
+M4245,Menon Advisory,menonadvisory.in,Professional Services,0,KOL,MNNDVSRY KOL|ECOM*MENON ADVISORY KOL|MENON ADVISO 9271
+M6625,Amaltas Legal,amaltaslegal.co.in,Professional Services,0,CHN,MPOS*AMALTAS LEGAL CHN|AMALTAS LEGAL|AMALTAS LEGA 3562
+M5646,Mehta Mart,mehtamart.com,Groceries & Retail,0,AMD,MHTMRT AMD|MEHTA MART 8136|POS MEHTA MART AMD
+M3526,Gill Legal,gilllegal.in,Professional Services,0,KOL,GILL LEGAL|GLLLGL KOL|MPOS*GILL LEGAL KOL
+M3735,Amaltas Arcade,amaltasarcade.in,Entertainment,0,PUN,AMALTAS ARCA 9417|PG*AMALTAS ARCADE PUN|AMALTAS ARCADE
+M1362,Thar Dhaba,thardhaba.in,Meals & Restaurants,0,AMD,ECOM*THAR DHABA AMD|THAR DHABA 7630|THRDHB AMD
+M7713,Hotel Rao Inn,hotelraoinn.com,Lodging,0,CHN,HOTEL RAO IN 7845|HTLRNN CHN|ECOM*HOTEL RAO INN CHN
+M4349,Ananta Supermarket,anantasupermarket.in,Groceries & Retail,0,JPR,ANANTA SUPERMARKET|MPOS*ANANTA SUPERMA JPR|ANANTA SUPER 3145
+M1777,Nair & Associates,nairassociates.com,Professional Services,0,BLR,NAIR  ASSOCIATES|NAIR  ASSOCIAT BLR|NAIR  ASSOCI 9148
+M5264,Kapoor Mart,kapoormart.in,Groceries & Retail,0,JPR,KAPOOR MART|KAPOOR MART 3753|PG*KAPOOR MART JPR
+M6311,Hotel Deccan Inn,hoteldeccaninn.in,Lodging,0,BLR,HOTEL DECCAN INN|MPOS*HOTEL DECCAN I BLR|HOTEL DECCAN 8466
+M3651,Konkan Residency,konkanresidency.co.in,Lodging,0,CHN,KONKAN RESID 2099|KNKNRSDNCY CHN|POS KONKAN RESIDEN CHN
+M9085,Sandal Advisory,sandaladvisory.in,Professional Services,0,KOL,SANDAL ADVIS 3997|MPOS*SANDAL ADVISOR KOL|SNDLDVSRY KOL
+M3678,Pillai Office Mart,pillaiofficemart.co.in,Office Supplies,0,BLR,PILLAI OFFICE MART|ECOM*PILLAI OFFICE  BLR|PILLAI OFFIC 1076
+M2932,Sundar Fuel Point,sundarfuelpoint.com,Fuel,0,AMD,POS SUNDAR FUEL PO AMD|SUNDAR FUEL  6195|SUNDAR FUEL POINT
+M6785,Kulkarni Restaurant,kulkarnirestaurant.co.in,Meals & Restaurants,0,DEL,MPOS*KULKARNI RESTA DEL|KULKARNI RESTAURANT|KULKARNI RES 8669
+M9152,Sahyadri Petro,sahyadripetro.co.in,Fuel,0,AMD,SAHYADRI PETRO|SAHYADRI PET 8631|ECOM*SAHYADRI PETRO AMD
+M4221,Desai & Associates,desaiassociates.in,Professional Services,0,BLR,DESAI  ASSOC 5358|DESAI  ASSOCIATES|DSSSCTS BLR
+M9211,Kesar Stationers,kesarstationers.in,Office Supplies,0,CHN,KESAR STATIONERS|KESAR STATIONE CHN|KESAR STATIO 6341
+M7476,Sandal Residency,sandalresidency.co.in,Lodging,0,MUM,SANDAL RESIDEN MUM|SANDAL RESID 3532|SNDLRSDNCY MUM
+M6566,KiteCloud,kitecloud.com,Software & SaaS,0,AMD,KITECLOUD 8823|POS KITECLOUD AMD|KTCLD AMD
+M5146,Chandra Labs,chandralabs.in,Software & SaaS,0,DEL,CHANDRA LABS 4597|CHNDRLBS DEL|MPOS*CHANDRA LABS DEL
+M1479,Kulkarni Bazaar,kulkarnibazaar.com,Groceries & Retail,0,HYD,KLKRNBZR HYD|ECOM*KULKARNI BAZAA HYD|KULKARNI BAZ 1906
+M9201,Sethi & Associates,sethiassociates.com,Professional Services,0,HYD,SETHI  ASSOCIATES|STHSSCTS HYD|SETHI  ASSOCIA HYD
+M2079,Reddy Supermarket,reddysupermarket.co.in,Groceries & Retail,0,HYD,RDDYSPRMRKT HYD|REDDY SUPERMARKET|REDDY SUPERM 2440
+M7297,Kalinga Residency,kalingaresidency.com,Lodging,0,BLR,KALINGA RESIDE BLR|KLNGRSDNCY BLR|KALINGA RESI 5840
+M6960,Iyer Residency,iyerresidency.co.in,Lodging,0,BLR,POS IYER RESIDENCY BLR|IYRRSDNCY BLR|IYER RESIDENCY
+M1554,Sundar Restaurant,sundarrestaurant.in,Meals & Restaurants,0,MUM,PG*SUNDAR RESTAUR MUM|SNDRRSTRNT MUM|SUNDAR RESTAURANT
+M4317,Shetty Advisory,shettyadvisory.co.in,Professional Services,0,DEL,SHETTY ADVIS 5534|SHETTY ADVISOR DEL|SHTTYDVSRY DEL
+M5053,VermaSoft,vermasoft.in,Software & SaaS,0,AMD,VRMSFT AMD|VERMASOFT|VERMASOFT 4858
+M7916,Rudra Broadband,rudrabroadband.co.in,Telecom & Internet,0,PUN,PG*RUDRA BROADBAN PUN|RUDRA BROADB 6970|RDRBRDBND PUN
+M4231,Kaveri Rides,kaverirides.in,Ground Transport,0,JPR,MPOS*KAVERI RIDES JPR|KAVERI RIDES|KVRRDS JPR
+M9052,Dhara Sweets,dharasweets.co.in,Meals & Restaurants,0,MUM,DHARA SWEETS|POS DHARA SWEETS MUM|DHARA SWEETS 9103
+M2912,VertexioSoft,vertexiosoft.com,Software & SaaS,0,DEL,VERTEXIOSOFT|VRTXSFT DEL|POS VERTEXIOSOFT DEL
+M2359,Kapoor Fuel Point,kapoorfuelpoint.in,Fuel,0,GGN,KAPOOR FUEL  8501|KPRFLPNT GGN|KAPOOR FUEL POINT
+M4903,Desai Water Works,desaiwaterworks.com,Utilities,0,DEL,DSWTRWRKS DEL|DESAI WATER  3775|ECOM*DESAI WATER WO DEL
+M6718,Nair Bazaar,nairbazaar.in,Groceries & Retail,0,GGN,PG*NAIR BAZAAR GGN|NAIR BAZAAR 5691|NRBZR GGN
+M2394,Nakshatra Bazaar,nakshatrabazaar.in,Groceries & Retail,0,HYD,NAKSHATRA BA 3180|PG*NAKSHATRA BAZA HYD|NAKSHATRA BAZAAR
+M5283,Aravali Broadband,aravalibroadband.in,Telecom & Internet,0,HYD,ARAVALI BROADBAND|ARAVALI BROA 8601|ARVLBRDBND HYD
+M3430,Narmada Sweets,narmadasweets.com,Meals & Restaurants,0,DEL,ECOM*NARMADA SWEETS DEL|NARMADA SWEE 8125|NARMADA SWEETS
+M2070,Nilgiri Grand Hotel,nilgirigrandhotel.in,Lodging,0,GGN,NILGIRI GRAND HOTEL|POS NILGIRI GRAND  GGN|NLGRGRNDHTL GGN
+M5975,Rudra Power,rudrapower.com,Utilities,0,AMD,RUDRA POWER AMD|RDRPWR AMD|RUDRA POWER
+M9711,DailyMart,dailymart.in,Groceries & Retail,1,AMD,DAILYMART|MPOS*DAILYMART AMD|DLYMRT AMD|DAILYMART 6146
+M1467,Sandal Service Station,sandalservicestation.in,Fuel,0,PUN,SANDAL SERVI 1751|SANDAL SERVICE PUN|SANDAL SERVICE STATION
+M6851,Ananta Cabs,anantacabs.co.in,Ground Transport,0,JPR,POS ANANTA CABS JPR|ANANTA CABS|ANANTA CABS 7770
+M3571,NimbuslySoft,nimbuslysoft.in,Software & SaaS,0,BLR,NMBSLYSFT BLR|NIMBUSLYSOFT|NIMBUSLYSOFT 7112
+M5430,Reddy Mart,reddymart.co.in,Groceries & Retail,0,JPR,RDDYMRT JPR|REDDY MART|REDDY MART 1470
+M7858,Peacock Kitchen,peacockkitchen.com,Meals & Restaurants,0,MUM,PCCKKTCHN MUM|ECOM*PEACOCK KITCHE MUM|PEACOCK KITC 5344
+M3873,Bose Cabs,bosecabs.in,Ground Transport,0,AMD,BOSE CABS 5283|BOSE CABS|BSCBS AMD
+M5799,Mandara Legal,mandaralegal.com,Professional Services,0,PUN,MANDARA LEGAL|MPOS*MANDARA LEGAL PUN|MNDRLGL PUN
+M8736,Banerjee Service Station,banerjeeservicestation.in,Fuel,0,MUM,POS BANERJEE SERVI MUM|BNRJSRVCSTTN MUM|BANERJEE SERVICE STATI
+M4289,Sandal Arcade,sandalarcade.co.in,Entertainment,0,KOL,SANDAL ARCADE|SNDLRCD KOL|SANDAL ARCAD 4694
+M9639,Verma Mart,vermamart.in,Groceries & Retail,0,CHN,VERMA MART|VRMMRT CHN|ECOM*VERMA MART CHN
+M5741,Malwa Stationers,malwastationers.com,Office Supplies,0,KOL,POS MALWA STATIONE KOL|MALWA STATIO 1941|MALWA STATIONERS
+M1791,Thar Airways,tharairways.com,Air Travel,0,GGN,THAR AIRWAYS|THAR AIRWAYS GGN|THAR AIRWAYS 5155
+M7049,Tarang Residency,tarangresidency.co.in,Lodging,0,JPR,TARANG RESID 6220|TARANG RESIDENCY|TRNGRSDNCY JPR
+M1662,Naidu Bazaar,naidubazaar.com,Groceries & Retail,0,HYD,NDBZR HYD|PG*NAIDU BAZAAR HYD|NAIDU BAZAAR
+M3960,OrbitSoft,orbitsoft.co.in,Software & SaaS,0,MUM,ORBITSOFT 6944|ORBITSOFT|ECOM*ORBITSOFT MUM
+M9758,VectorioHQ,vectoriohq.in,Software & SaaS,0,PUN,VECTORIOHQ PUN|VCTRHQ PUN|VECTORIOHQ
+M7027,Bose Mart,bosemart.com,Groceries & Retail,0,DEL,POS BOSE MART DEL|BOSE MART|BSMRT DEL
+M7267,Orchha Sweets,orchhasweets.in,Groceries & Retail,0,AMD,MPOS*ORCHHA SWEETS AMD|ORCHHA SWEET 5707|ORCHHSWTS AMD
+M6094,Konkan Supermarket,konkansupermarket.co.in,Groceries & Retail,0,BLR,KONKAN SUPERMARKET|POS KONKAN SUPERMA BLR|KNKNSPRMRKT BLR
+M4495,Joshi Service Station,joshiservicestation.co.in,Fuel,0,BLR,JOSHI SERVIC 3079|MPOS*JOSHI SERVICE  BLR|JOSHI SERVICE STATION
+M8013,Gill Restaurant,gillrestaurant.co.in,Meals & Restaurants,0,CHN,GILL RESTAURAN CHN|GILL RESTAURANT|GLLRSTRNT CHN
+M4745,Nair Sweets,nairsweets.co.in,Meals & Restaurants,0,HYD,NAIR SWEETS|NRSWTS HYD|POS NAIR SWEETS HYD
+M2940,Shetty Kitchen,shettykitchen.com,Meals & Restaurants,0,JPR,SHETTY KITCHEN|SHTTYKTCHN JPR|SHETTY KITCH 4836
+M8422,Amaltas Airways,amaltasairways.co.in,Air Travel,0,PUN,AMALTAS AIRWAYS|AMALTAS AIRWAY PUN|AMALTAS AIRW 2713
+M9089,Mandara Petro,mandarapetro.com,Fuel,0,PUN,MANDARA PETRO|ECOM*MANDARA PETRO PUN|MANDARA PETR 9253
+M4612,Ambar Dhaba,ambardhaba.in,Meals & Restaurants,0,MUM,AMBRDHB MUM|AMBAR DHABA|AMBAR DHABA 8701
+M4569,Deccan Dhaba,deccandhaba.in,Meals & Restaurants,0,JPR,DECCAN DHABA 9506|POS DECCAN DHABA JPR|DECCAN DHABA
+M2837,Reddy Bazaar,reddybazaar.in,Groceries & Retail,0,KOL,REDDY BAZAAR|RDDYBZR KOL|REDDY BAZAAR 5920
+M8314,Pillai Fuel Point,pillaifuelpoint.in,Fuel,0,KOL,PILLAI FUEL POINT|PLLFLPNT KOL|PILLAI FUEL  7342
+M3370,Sethi Cabs,sethicabs.co.in,Ground Transport,0,MUM,ECOM*SETHI CABS MUM|SETHI CABS 7585|SETHI CABS
+M2952,Banerjee Office Mart,banerjeeofficemart.com,Office Supplies,0,CHN,BNRJFFCMRT CHN|BANERJEE OFFICE MART|POS BANERJEE OFFIC CHN
+M1894,Aravali Petro,aravalipetro.com,Fuel,0,GGN,ARVLPTR GGN|ARAVALI PETRO GGN|ARAVALI PETR 9554
+M5034,Desai Supermarket,desaisupermarket.com,Groceries & Retail,0,JPR,DESAI SUPERM 9359|DSSPRMRKT JPR|DESAI SUPERMARKET
+M4517,SkyLine Air,skylineair.in,Air Travel,1,JPR,SKYLNR JPR|SKYLINE AIR|PG*SKYLINE AIR JPR|SKYLINE AIR 2408
+M8623,Hotel Kaveri Inn,hotelkaveriinn.in,Lodging,0,AMD,HOTEL KAVERI INN|HTLKVRNN AMD|HOTEL KAVERI 8508
+M3781,Tulsi Rides,tulsirides.com,Ground Transport,0,BLR,TULSI RIDES|TULSI RIDES 4322|TLSRDS BLR
+M6983,Chopra Dhaba,chopradhaba.in,Meals & Restaurants,0,MUM,MPOS*CHOPRA DHABA MUM|CHPRDHB MUM|CHOPRA DHABA
+M7605,Chopra Supermarket,choprasupermarket.co.in,Groceries & Retail,0,PUN,CHPRSPRMRKT PUN|CHOPRA SUPERMARKET|PG*CHOPRA SUPERMA PUN
+M3085,Shetty Sweets,shettysweets.in,Meals & Restaurants,0,BLR,SHETTY SWEETS|SHETTY SWEET 7797|MPOS*SHETTY SWEETS BLR
+M1416,BeaconlySoft,beaconlysoft.com,Software & SaaS,0,DEL,BEACONLYSOFT 5858|BEACONLYSOFT DEL|BEACONLYSOFT
+M2486,RideNow Cabs,ridenow.in,Ground Transport,1,HYD,RIDENOW CABS HYD|RIDENOW CABS 7955|RDNWCBS HYD|RIDENOW CABS
+M4056,Sahyadri Water Works,sahyadriwaterworks.in,Utilities,0,KOL,SAHYADRI WAT 7488|ECOM*SAHYADRI WATER KOL|SAHYADRI WATER WORKS
+M3659,Jasmine Mart,jasminemart.in,Groceries & Retail,0,AMD,ECOM*JASMINE MART AMD|JSMNMRT AMD|JASMINE MART 1861
+M4723,Peacock Cabs,peacockcabs.co.in,Ground Transport,0,AMD,PCCKCBS AMD|PG*PEACOCK CABS AMD|PEACOCK CABS 1365
+M4793,Pillai Restaurant,pillairestaurant.com,Meals & Restaurants,0,CHN,PLLRSTRNT CHN|PILLAI RESTA 2800|POS PILLAI RESTAUR CHN
+M9410,Mandara Stationers,mandarastationers.in,Office Supplies,0,AMD,MANDARA STAT 9803|MNDRSTTNRS AMD|MANDARA STATIONERS
+M9101,Shetty Dhaba,shettydhaba.co.in,Meals & Restaurants,0,HYD,SHETTY DHABA 9696|POS SHETTY DHABA HYD|SHTTYDHB HYD
+M8945,Tarang Restaurant,tarangrestaurant.co.in,Meals & Restaurants,0,BLR,POS TARANG RESTAUR BLR|TARANG RESTA 5304|TARANG RESTAURANT
+M3953,StacklySoft,stacklysoft.co.in,Software & SaaS,0,BLR,STCKLYSFT BLR|MPOS*STACKLYSOFT BLR|STACKLYSOFT
+M3645,Pavan Petro,pavanpetro.co.in,Fuel,0,AMD,PG*PAVAN PETRO AMD|PAVAN PETRO 4362|PAVAN PETRO
+M3563,Deccan Residency,deccanresidency.com,Lodging,0,JPR,DECCAN RESID 3016|DCCNRSDNCY JPR|DECCAN RESIDENCY
+M7562,Iyer Mart,iyermart.com,Groceries & Retail,0,AMD,IYER MART 3976|PG*IYER MART AMD|IYER MART
+M3180,Kaveri Bazaar,kaveribazaar.co.in,Groceries & Retail,0,AMD,KAVERI BAZAA 5904|KAVERI BAZAAR|KVRBZR AMD
+M4041,Desai Restaurant,desairestaurant.com,Meals & Restaurants,0,HYD,DSRSTRNT HYD|DESAI RESTAURANT|DESAI RESTAU 3501
+M5576,Pillai & Associates,pillaiassociates.co.in,Professional Services,0,KOL,PILLAI  ASSOCIATES|PLLSSCTS KOL|PILLAI  ASSOCI KOL
+M4384,PrismioCloud,prismiocloud.com,Software & SaaS,0,KOL,PRSMCLD KOL|PRISMIOCLOUD|PRISMIOCLOUD KOL
+M5911,SwiftBite,swiftbite.in,Meals & Restaurants,1,PUN,SWFTBT PUN|SWIFTBITE 3945|SWIFTBITE|POS SWIFTBITE PUN
+M7468,ShopKart,shopkart.in,Groceries & Retail,1,DEL,SHPKRT DEL|SHOPKART 2186|PG*SHOPKART DEL|SHOPKART
+M1860,Amaltas Travels,amaltastravels.com,Ground Transport,0,CHN,AMALTAS TRAV 8144|AMALTAS TRAVELS|AMALTAS TRAVEL CHN
+M7646,Amaltas Broadband,amaltasbroadband.in,Telecom & Internet,0,MUM,AMLTSBRDBND MUM|AMALTAS BROA 4726|AMALTAS BROADBAND
+M8603,Rao Office Mart,raoofficemart.in,Office Supplies,0,BLR,RAO OFFICE M 5210|RAO OFFICE MART|RFFCMRT BLR
+M5440,Verma & Associates,vermaassociates.in,Professional Services,0,MUM,VERMA  ASSOCIATES|VRMSSCTS MUM|MPOS*VERMA  ASSOCIA MUM
+M6824,Rao Kitchen,raokitchen.co.in,Meals & Restaurants,0,GGN,RAO KITCHEN|RAO KITCHEN 5136|PG*RAO KITCHEN GGN
+M5939,Reddy Restaurant,reddyrestaurant.co.in,Meals & Restaurants,0,CHN,RDDYRSTRNT CHN|REDDY RESTAU 3532|REDDY RESTAURANT
+M4140,Desai Power,desaipower.com,Utilities,0,PUN,DESAI POWER PUN|DSPWR PUN|DESAI POWER 7318
+M3702,Hotel Malabar Inn,hotelmalabarinn.com,Lodging,0,KOL,POS HOTEL MALABAR  KOL|HTLMLBRNN KOL|HOTEL MALABAR INN
+M7485,Vasant Residency,vasantresidency.com,Lodging,0,MUM,VASANT RESID 2391|VSNTRSDNCY MUM|VASANT RESIDENCY
+M6228,Gulmohar Restaurant,gulmoharrestaurant.com,Meals & Restaurants,0,CHN,GULMOHAR RES 5278|GLMHRRSTRNT CHN|MPOS*GULMOHAR RESTA CHN
+M7440,QuillioCloud,quilliocloud.in,Software & SaaS,0,JPR,MPOS*QUILLIOCLOUD JPR|QUILLIOCLOUD 3616|QUILLIOCLOUD
+M4870,Naidu Dhaba,naidudhaba.com,Meals & Restaurants,0,DEL,POS NAIDU DHABA DEL|NDDHB DEL|NAIDU DHABA 5238
+M5066,Coral Residency,coralresidency.co.in,Lodging,0,HYD,PG*CORAL RESIDENC HYD|CORAL RESIDE 2488|CORAL RESIDENCY
+M8519,Cauvery & Associates,cauveryassociates.in,Office Supplies,0,CHN,CAUVERY  ASS 8363|CAUVERY  ASSOCIATES|CAUVERY  ASSOC CHN
+M3620,Chola Cinemas,cholacinemas.in,Entertainment,0,KOL,CHOLA CINEMA 2060|CHLCNMS KOL|MPOS*CHOLA CINEMAS KOL
+M2298,Godavari Stationers,godavaristationers.in,Office Supplies,0,GGN,GODAVARI STATI GGN|GODAVARI STA 9117|GODAVARI STATIONERS
+M7381,Banyan & Associates,banyanassociates.com,Professional Services,0,GGN,MPOS*BANYAN  ASSOCI GGN|BANYAN  ASSOCIATES|BANYAN  ASSO 3448
+M5246,Ambar Arcade,ambararcade.in,Entertainment,0,AMD,AMBAR ARCADE|AMBAR ARCADE AMD|AMBRRCD AMD
+M1550,AxislyCloud,axislycloud.in,Software & SaaS,0,MUM,AXISLYCLOUD|AXSLYCLD MUM|AXISLYCLOUD 8967
+M1821,Sethi Fuel Point,sethifuelpoint.com,Fuel,0,DEL,SETHI FUEL POINT|POS SETHI FUEL POI DEL|SETHI FUEL P 2381
+M3576,Lumenly Labs,lumenlylabs.co.in,Software & SaaS,0,KOL,LUMENLY LABS 5727|LUMENLY LABS|LMNLYLBS KOL
+M6874,Gulmohar Grand Hotel,gulmohargrandhotel.com,Lodging,0,DEL,ECOM*GULMOHAR GRAND DEL|GULMOHAR GRAND HOTEL|GLMHRGRNDHTL DEL
+M8959,Lotus Petro,lotuspetro.com,Ground Transport,0,BLR,LOTUS PETRO|LTSPTR BLR|PG*LOTUS PETRO BLR
+M4938,Gill Telecom,gilltelecom.com,Telecom & Internet,0,KOL,MPOS*GILL TELECOM KOL|GILL TELECOM|GLLTLCM KOL
+M6865,Kulkarni Kitchen,kulkarnikitchen.in,Meals & Restaurants,0,CHN,KULKARNI KITCHEN|KLKRNKTCHN CHN|ECOM*KULKARNI KITCH CHN
+M2558,Kapoor Dhaba,kapoordhaba.com,Meals & Restaurants,0,PUN,MPOS*KAPOOR DHABA PUN|KAPOOR DHABA|KPRDHB PUN
