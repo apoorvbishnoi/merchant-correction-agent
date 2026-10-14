@@ -25,9 +25,9 @@ st.markdown(
     "<style>.block-container{padding-top:2rem;max-width:1180px}"
     "h1{font-size:1.85rem!important;font-weight:650!important;letter-spacing:-.01em}"
     "h2,h3{font-weight:620!important}"
-    "[data-testid=stMetric]{border:1px solid #e3e7ee;border-radius:10px;padding:10px 14px;background:#fafbfd}"
+    "[data-testid=stMetric]{border:1px solid rgba(128,128,128,.28);border-radius:10px;padding:10px 14px;background:rgba(128,128,128,.07)}"
     "[data-testid=stMetricValue]{font-size:1.55rem}"
-    ".stAppDeployButton,[data-testid=stAppDeployButton],[data-testid=stMainMenu],#MainMenu,footer{display:none!important}</style>", unsafe_allow_html=True)
+    ".stAppDeployButton,[data-testid=stAppDeployButton],footer{display:none!important}</style>", unsafe_allow_html=True)
 
 ACTION_COLOR = {"create": "green", "update": "blue", "reassign": "orange", "reject": "red"}
 ACTION_TEXT = {"create": "Create a new merchant", "update": "Update the merchant record",
