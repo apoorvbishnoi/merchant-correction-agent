@@ -110,7 +110,7 @@ with tab_over:
         st.markdown(
             "A company card shows each purchase under a **merchant record**: a name, a category and a website. Card networks send messy text "
             "such as `ECOM*MEHTA BAZAAR MUM`, so records are often wrong. Customers ask for corrections, and today **a person reads each one**. "
-            "In Ramp's published write-up, staff could handle only about **1.5% of requests in 2024**, and each took hours.")
+            "In Ramp's published write-up, staff could handle only about **1.5% of requests in 2024**, and each fix took hours of support and engineering time.")
     with c2:
         st.subheader("The solution")
         st.markdown(
@@ -146,8 +146,8 @@ with tab_over:
               help=f"Fully right. {int(B['action_ok'].sum())} of {N_REQ} on the action alone. Computed live from the same requests.")
     st.success(
         f"**Recommendation: run a 12-week pilot, do not switch it on for everyone.** On the Business case assumptions the agent costs about "
-        f"{inr(imp['allin_req'])} per request against {inr(imp['manual_req'])} by hand. The cheapest set-up of all is rules for the easy requests "
-        f"and the agent for the hard ones, once more than {imp['break_even_hybrid_share']:.0%} of requests need reading. The pilot decides what that share really is. "
+        f"{inr(imp['allin_req'])} per request against {inr(imp['manual_req'])} by hand. Against rules for the easy requests and people for the rest, the agent is cheaper only once "
+        f"more than {imp['break_even_hard_share']:.0%} of requests need reading. The pilot decides what that share really is. "
         "Plan and gates are in the Rollout & success tab.")
     st.info(
         "**Read this before quoting any number.** The company, merchants and requests are synthetic. The model results come from a free-tier, "
@@ -467,18 +467,18 @@ with tab_impact:
     st.caption("Every input is an assumption you can change. The table at the bottom says where each default comes from.")
     FIELDS = [
         ("requests_per_month", "Correction requests per month", 500.0, "%.0f", "Assumed for a mid-sized card company."),
-        ("manual_hours", "Staff hours to fix one request by hand", 0.5, "%.1f", "Ramp says hours per request; 2 is my assumption."),
-        ("hourly_cost", "Cost of one staff hour (₹)", 50.0, "%.0f", "About ₹1 lakh a month fully loaded for an operations analyst (₹600 x 165 hours)."),
+        ("manual_minutes", "Minutes to fix one request by hand", 5.0, "%.0f", "Open the receipt, read the memo and the request, decide, update the record. Ramp reports hours of support and engineering time per fix; 20 minutes is our assumption for the routine case, deliberately lower, so the saving is understated."),
+        ("hourly_cost", "Cost of one staff hour (₹)", 25.0, "%.0f", "About ₹68,000 a month fully loaded for a senior support executive (salary up to ₹6.5 lakh a year on AmbitionBox, plus about 25% overhead), over 160 hours. A senior person handles these because a wrong change costs the customer money. Our assumption."),
         ("ai_cost", "Model + retrieval cost per request (₹)", 0.5, "%.1f", "Deliberately generous: the model call alone is a fraction of a rupee at published prices."),
-        ("review_share", "Share still reviewed by a person (%)", 1.0, "%.1f", "My assumption."),
-        ("review_hours", "Hours per review", 0.1, "%.1f", "My assumption."),
-        ("rework_share", "Share of agent decisions redone by hand (%)", 1.0, "%.1f", "Ramp reports under 10% repeat corrections; 8% is my pick."),
+        ("review_share", "Share still reviewed by a person (%)", 1.0, "%.1f", "Our assumption."),
+        ("review_minutes", "Minutes per review", 1.0, "%.0f", "Our assumption: a quick check of the agent's answer, not a full redo."),
+        ("rework_share", "Share of agent decisions redone by hand (%)", 1.0, "%.1f", "Ramp reports under 10% repeat corrections; 8% is our pick."),
         ("current_coverage", "Share staff can handle today (%)", 0.5, "%.1f", "Ramp reported 1.5% in 2024."),
-        ("fte_hours", "Working hours per person per month", 5.0, "%.0f", "Used to convert hours into full-time staff."),
-        ("build_cost", "One-time build cost (₹)", 100000.0, "%.0f", "A team of four for three months at about ₹3 lakh per person-month. My assumption."),
-        ("run_cost", "Run and maintain cost per month (₹)", 25000.0, "%.0f", "Part-time owner team and tools for monitoring, evaluation and prompt updates. My assumption."),
-        ("amortise_months", "Months to spread the build cost over", 1.0, "%.0f", "My assumption."),
-        ("rules_run_cost", "Run cost of a rules-only matcher per month (₹)", 10000.0, "%.0f", "Used in the rules comparison. Part-time upkeep of matching rules and code tables. My assumption."),
+        ("fte_hours", "Working hours per person per month", 5.0, "%.0f", "40 hours a week for 4 weeks. Used to convert hours into full-time staff."),
+        ("build_cost", "One-time build cost (₹)", 100000.0, "%.0f", "A team of four for three months at about ₹3 lakh per person-month. Our assumption."),
+        ("run_cost", "Run and maintain cost per month (₹)", 25000.0, "%.0f", "Part-time owner team and tools for monitoring, evaluation and prompt updates. Our assumption."),
+        ("amortise_months", "Months to spread the build cost over", 1.0, "%.0f", "Our assumption."),
+        ("rules_run_cost", "Run cost of a rules-only matcher per month (₹)", 10000.0, "%.0f", "Used in the rules comparison. Part-time upkeep of matching rules and code tables. Our assumption."),
     ]
     PCT = {"review_share", "rework_share", "current_coverage"}
 
@@ -522,14 +522,13 @@ with tab_impact:
     st.table(pd.DataFrame({
         "Share of requests that need reading": vr["Share of requests that need an AI"].map(lambda h_: f"{h_:.0%}"),
         "Rules + people": vr["Rules + people"].map(inr), "AI agent for all": vr["AI agent for all"].map(inr),
-        "Rules + AI agent": vr["Rules + AI agent"].map(inr), "Cheapest": vr["Cheapest"]}).set_index("Share of requests that need reading"))
-    h1, h2 = st.columns(2)
-    h1.metric("Agent beats 'rules + people' above", f"{R['break_even_hard_share']:.0%}", help="Share of requests that need reading.")
-    h2.metric("Rules + agent beats 'rules + people' above", f"{R['break_even_hybrid_share']:.0%}",
-              help="Assumes perfect routing: the easy requests go to rules and the hard ones to the agent, and none is sent the wrong way.")
-    st.caption("The hybrid is the cheapest set-up in this model, but it assumes the easy and hard requests can be told apart without error, which is itself work. "
-               "The share of hard requests in real traffic is unknown. The pilot's shadow phase must measure it by sorting 300+ real requests into "
-               "'a name match would have solved it' and 'someone had to read it'.")
+        "Cheapest": vr["Cheapest"]}).set_index("Share of requests that need reading"))
+    st.metric("Agent is cheaper than 'rules + people' above", f"{R['break_even_hard_share']:.0%}",
+              help="Share of requests that need reading. 'Rules + people' is generous to the rules: they answer every easy request correctly, cost only their upkeep, and never send a hard request the wrong way.")
+    st.caption("On cost, the agent wins only when enough requests are hard; below that, rules for the easy requests and people for the rest is cheaper. "
+               f"On quality the agent wins on the hard ones: on the {N_REQ} hard test requests the rules-only baseline gets {int(B['full_ok'].sum())} fully right and applies a wrong change on {bm['unsafe']}, "
+               f"the live agent got {RM['correct']} right with {RM['wrong_change']} wrong change. The share of hard requests in real traffic is unknown. "
+               "The pilot's shadow phase must measure it by sorting 300+ real requests into 'a name match would have solved it' and 'someone had to read it'.")
 
     st.markdown("**Gross benefit vs incremental cost of the agent (per month)**")
     rows = [["Gross benefit: cost of answering every request by hand", inr(R["gross_benefit"])]]
@@ -555,10 +554,8 @@ with tab_impact:
             "Review": pp["Human review"], "Build": pp["Build (spread over period)"], "Model": pp["Model + retrieval"]}}),
             horizontal=True, x_label="Cost per request (₹)", y_label="", sort=False)
         per_pt = R["manual_req"] * 0.01
-        extra_10x = 9 * P["ai_cost"]
-        st.caption(f"Rework is the biggest part of the agent's cost: each percentage point of wrong decisions costs about {inr(per_pt)} per request. "
-                   f"A stronger paid model that costs ten times as much ({inr(extra_10x)} more per request) pays for itself if it cuts wrong decisions by about "
-                   f"{(extra_10x / per_pt if per_pt else 0):.1f} points. That is why we expect accuracy to matter more than model price. It is an expectation, not a measurement.")
+        st.caption(f"Most of the agent's cost is the fixed run team and build ({inr(R['fixed_req'])} of {inr(R['allin_req'])} per request), so volume matters more than model price. "
+                   f"Each percentage point of wrong decisions costs about {inr(per_pt)} per request. A stronger paid model is expected to make fewer wrong decisions; that is an expectation, not a measurement.")
     with ch2:
         st.markdown("**Staff time per month**")
         st.dataframe(pd.DataFrame({
@@ -581,10 +578,10 @@ with tab_impact:
         st.table(pd.DataFrame([
             ["Share staff handle today", f"{D['current_coverage']:.1%}", "Ramp write-up, 2024 (3% in 2023)"],
             ["Requests per month", f"{D['requests_per_month']:,.0f}", "Assumption: a mid-sized card company, not taken from Ramp"],
-            ["Hours per manual fix", f"{D['manual_hours']:.0f}", "Assumption; Ramp says hours per request"],
-            ["Cost of a staff hour", inr(D["hourly_cost"]), "Assumption: about ₹1 lakh a month fully loaded (₹600 x 165 hours)"],
+            ["Minutes per manual fix", f"{D['manual_minutes']:.0f}", "Assumption: routine case for a senior support executive. Ramp reports hours of support and engineering time per fix, so 20 minutes is deliberately lower"],
+            ["Cost of a staff hour", inr(D["hourly_cost"]), "Assumption: about ₹68,000 a month fully loaded over 160 hours. Salary up to ₹6.5 lakh a year for a senior customer support executive (AmbitionBox, self-reported), plus about 25% overhead. A senior person handles these because a wrong change costs the customer money"],
             ["Model + retrieval per request", inr(D["ai_cost"]), "Assumption, deliberately high; a call to a small model costs a fraction of a rupee"],
-            ["Review share and hours", f"{D['review_share']:.0%}, {D['review_hours']} h", "Assumption"],
+            ["Review share and minutes", f"{D['review_share']:.0%}, {D['review_minutes']:.0f} min", "Assumption"],
             ["Rework share", f"{D['rework_share']:.0%}", f"Assumption, set under the under-10% repeat corrections Ramp reports. In the live test {RM['n'] - RM['correct']} of {RM['n']} hard requests were not fully correct ({(RM['n'] - RM['correct']) / RM['n']:.1%}); real traffic is probably easier"],
             ["Build cost", inr(D["build_cost"]), "Assumption: four people for three months at about ₹3 lakh per person-month"],
             ["Run and maintain", f"{inr(D['run_cost'])} a month", "Assumption: part-time owner team plus tools"],
@@ -597,7 +594,7 @@ with tab_roll:
     st.subheader("Framing the problem (TOSCAR)")
     st.table(pd.DataFrame([
         ["T  Trouble", "Is the problem real? What is the precise pain? Why now?",
-         "Correction requests pile up because every one needs a person. Staff handled about 1.5% of requests in 2024 (Ramp), and each takes hours. "
+         "Correction requests pile up because every one needs a person. Staff handled about 1.5% of requests in 2024 (Ramp), and each fix took hours of support and engineering time. "
          "The pain is wrong merchant records and unanswered customers. Why now: volume grows with every card issued, and models can now read messy card text, receipts and memos."],
         ["O  Owner", "Whose problem is it? Who is accountable?",
          "The Head of Card Operations at the (fictional) card company. Customers feel the pain; Finance and Compliance care about record accuracy."],
@@ -615,27 +612,27 @@ with tab_roll:
     st.subheader("Success criteria")
     st.table(pd.DataFrame([
         ["Requests answered", f"{DEFAULTS['current_coverage']:.1%} (Ramp, 2024)", "95% or more", "Measured in the pilot", "Answered requests divided by requests received, weekly"],
-        ["Resolved correctly", "No baseline", "85% or more (my target)",
+        ["Resolved correctly", "No baseline", "85% or more (our target)",
          f"{RM['correct']} of {RM['n']} in one live run (Gemini free tier). A hard test set, not a forecast",
          "Agreement with a human reviewer on at least 300 real requests"],
         ["Wrong changes applied", "No baseline", "As close to zero as possible; every one reviewed",
          f"{RM['wrong_change']} of {RM['n']} in the live test, 0 of {RE['n']} in the extra checks ('No wrong change applied' in the Evaluation tab)", "Audit log and sampled review of accepted changes"],
         ["Edits to protected merchants", "No baseline", "Zero", "0 accepted; enforced in code", "Audit log of every attempted edit"],
-        ["Time per request", "Hours (Ramp)", "Under 10 seconds (Ramp reports this)", "About 1.4 to 1.9 seconds per live call on the free tier (before the pause the app adds)",
+        ["Time per request", "About 20 minutes by hand (our assumption); Ramp reports hours", "Under 10 seconds (Ramp reports this)", "A few seconds per decision on the free tier; not formally timed",
          "Median and 95th-percentile response time in the pilot"],
         ["Repeat corrections", "No baseline", "Under 10% (Ramp reports this)", "Not measurable on synthetic data; the business case assumes 8%",
          "Share of transactions needing a second correction within 30 days"],
-        ["All-in cost per request", inr(imp["manual_req"]), "₹200 or less (my target)", f"{inr(imp['allin_req'])} on the model's assumptions", "Pilot cost divided by requests answered"],
+        ["All-in cost per request", inr(imp["manual_req"]), "₹100 or less (our target)", f"{inr(imp['allin_req'])} on the model's assumptions", "Pilot cost divided by requests answered"],
     ], columns=["Measure", "Today", "Target", "In this demo", "How the pilot would measure it"]).set_index("Measure"))
 
     st.subheader("Pilot plan with go/no-go gates")
-    st.caption("My proposal. Starting in shadow mode follows the evaluation approach described in Ramp's write-up.")
+    st.caption("Our proposal. Running in shadow mode before full rollout is how Ramp rolled out its agent; its evaluation began with manual review of select responses.")
     st.table(pd.DataFrame([
         ["1. Shadow", "Weeks 1 to 4", "The agent decides on live requests but nothing is applied. Staff work as usual and results are compared.",
          "85% or more agreement on 300+ requests; no protected-merchant edit would have been accepted; 95th-percentile response under 10 seconds"],
         ["2. Assisted", "Weeks 5 to 8", "The agent proposes and a person approves with one click.", "85% or more approved unchanged; repeat corrections under 10%"],
         ["3. Auto-apply, low risk", "Weeks 9 to 12", "Creates and moves to unprotected merchants apply automatically. Updates and declines are still reviewed.",
-         "All-in cost per request at or under ₹200; no rise in customer complaints; zero protected-merchant edits"],
+         "All-in cost per request at or under ₹100; no rise in customer complaints; zero protected-merchant edits"],
     ], columns=["Phase", "When", "What happens", "Gate to move on"]).set_index("Phase"))
     st.warning("**Stop rule:** any change to a protected merchant, or repeat corrections at 10% or more for two weeks in a row, sends the pilot back one phase.")
 
